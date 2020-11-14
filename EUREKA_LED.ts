@@ -41,7 +41,21 @@ namespace natumi_blocks {
     export function eureka_buz_set() {
     pins.analogSetPitchPin(AnalogPin.P8);
   }
-  //% color="#ff7b00" weight=17 blockId=eureka_white block="単体_LED |%mode| |%pin|" group="1_たん体ＬＥＤ"
+ 
+ /**
+ * Pause for the specified time in milliseconds
+ * @param ms how long to pause for, eg: 100, 200, 500, 1000, 2000
+ */
+function pause(ms: number): void {
+    basic.pause(ms);
+}
+ 
+ 
+ 
+ 
+ 
+ 
+  //% color="#ff7b00" weight=17 blockId=eureka_white block="LEDライト |%mode| |%pin|" group="1_たん体ＬＥＤ"
   export function eureka_white(port: eureka_IO, mode: onoff) {
     switch (port) {
       case eureka_IO.Aﾎﾟｰﾄ:
