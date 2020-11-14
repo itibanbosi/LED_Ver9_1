@@ -29,7 +29,7 @@ enum LED_color {
     白,
 }
 
-//% color="#ff7b00" block="はじめの一歩　V0.90"
+//% color="#ff7b00" block="はじめの一歩　V0.91"
 namespace natumi_blocks {
 
     //% blockId=eureka_buz_set 
